@@ -193,6 +193,16 @@ ul {
 
 }
 
+.gallery {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
 /* media quary */
 @media (max-width:992px) {
     label[for="menu-list"] {
