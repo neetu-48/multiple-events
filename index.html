@@ -10,6 +10,79 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
+<section class="px-5 feed-section min-vh-100">
+    <div class="containter">
+        <header class="w-100 feed">
+            <nav class="d-flex align-items-center justify-content-between gap-2">
+                <a href="#" class="events"><img src="./assets/image/png/image 1.png" alt="logo">Events<span
+                        class="free">Free</span></a>
+                <input type="checkbox" id="menu-list" hidden>
+                <label for="menu-list">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="ul-modify list-unstyled d-flex align-items-center justify-content-center gap-5">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#" class="active">FEED</a></li>
+                    <li><a href="#">USER NAME</a></li>
+                    <li><button class="log-btn">Log Out</button></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <img src="./assets/image/png/boy-img.png" alt="image" width="100%" class="boy-img">
+                </div>
+                <div class="col-12 col-lg-9">
+                    <p class="home-feed">Home > Feed</p>
+                    <h1 class="jhone-doe">Jhone Doe</h1>
+                    <p class="dictum">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                        gravida sed interdum
+                        pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis
+                        donec
+                        sit. Ut vitae dolor fringilla urna eget aliquet.</p>
+                    <p class="following-e">Following Events :</p>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-24 mb-md-0 gap-3">
+
+                            <div class="d-flex card-img">
+                                <img src="./assets/image/png/Rectangle 78.png" alt="party" width="100%" class="pr-15">
+                                <p class="augue">Augue etiam<br>
+                                    <span class="quis">Quis et id urna sagittis. Enim lacus, felis, libero sed nisl
+                                        vitae
+                                        blandit
+                                        sociis.</span>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-sm-4 mb-24 mb-md-0">
+                            <div class="d-flex card-img">
+                                <img src="./assets/image/png/Rectangle 81.png" alt="party" width="100%" class="pr-15">
+                                <p class="augue">Augue etiam<br>
+                                    <span class="quis">Quis et id urna sagittis. Enim lacus, felis, libero sed
+                                        nisl
+                                        vitae blandit
+                                        sociis.</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-24 mb-md-0">
+                            <div class="more-no text-center">
+                                <h2 class="text-no">+15</h2>
+                                <p class="text-more">more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="event px-5 py-3">
     <div class="containter">
         <header class="px-5">
@@ -30,10 +103,11 @@
                     <li><button class="log-btn">Log Out</button></li>
                 </ul>
             </nav>
-            <h1 class="home">Home > Events</h1>
-            <h3 class="even">Events</h3>
         </header>
+        <h1 class="home">Home > Events</h1>
+        <h3 class="even">Events</h3>
 
+    </div>
 </section>
 <section class="py-5 d-flex align-items-center justify-content-center">
     <div class="container">
@@ -690,8 +764,8 @@
 <section class="footer-section">
     <div class="container w-100">
         <div class="row justify-content-between">
-            <div class="col-4 eventsfree">
-                <a href="#" class="events"><img src="./assets/image/png/image 1.png" alt="logo">Events<span
+            <div class="col-12 col-lg-4 eventsfree ">
+                <a href="#" class="events d-flex"><img src="./assets/image/png/image 1.png" alt="logo">Events<span
                         class="free">Free</span></a>
                 <p class="lorem-sit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in
                     dictum suscipit.
@@ -729,10 +803,10 @@
                 </div>
             </div>
 
-             <div class="col-7 ul-list">
+            <div class="col-12 col-lg-7 ul-list">
                 <div class="row">
 
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <ul class="list-unstyled ul-chat">
                             <li class="service-e">SERVICES</li>
                             <li><a href="#" class="service-li">About</a></li>
@@ -742,7 +816,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <ul class="list-unstyled ul-chat">
                             <li class="service-e">EVENTS</li>
                             <li><a href="#" class="service-li">ullamcorper</a></li>
@@ -752,7 +826,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <h2 class="gallery">GALLERY</h2>
                         <div class="grid-container">
                             <div><img src="./assets/image/png/img-1.png" alt="image"></div>
